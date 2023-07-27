@@ -1,0 +1,47 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(Startup.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.buffer{
+    height: 1rem;
+}
+
+hr {
+    border: solid 1px #dc4111;
+    margin: 20px auto;
+    max-width: 80px;
+    opacity: 0.5;
+
+}
+
+h1 {
+    color: white;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 250px;
+    max-width: 255px;
+}
+
+.btn-primary {
+    background-color: #174da0;
+    border-color: #174da0;
+}
+
+.btn-primary:hover {
+    background-color: #dc4111;
+    border-width: 3px;
+    border-color: #dc4111;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
